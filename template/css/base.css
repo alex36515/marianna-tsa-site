@@ -1,0 +1,286 @@
+body {
+    background-image: url("back.png");
+    no-repeat center center fixed; 
+    background-position: center; 
+       -webkit-background-size: cover;
+      -moz-background-size: cover;
+     -o-background-size: cover;
+}
+
+.articleOne {
+    margin-bottom: 100px;
+    margin-left: 19%;
+    margin-top: 100px;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 50px;    
+}
+
+h1.headTitle{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p.pgText{
+    margin-left: 50px;
+    text-align: left;
+}
+
+.agu-list{
+    margin-left: 50px;
+    color:black; 
+}
+
+.articleHome{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 200px;
+    width: 100%;
+    padding-right: 50px;  
+}
+
+@media all and (max-width: 959px) and (orientation : landscape) {
+        .articleOne{
+        padding-top: 50px;
+    }
+    h1.head-title{
+        font-size: 80px;
+    }
+    p.pgText{
+        font-size: 35px;
+    }
+    .navbar-collapse{
+        max-height: 1000px;
+    }
+    .page-title{
+        padding-top: 15px;
+        font-size: 15px;
+        }
+    
+    li.nav-item.dropdown.open {
+        color: white;
+        border-radius: 1px;
+        margin-bottom: 400px;
+        } 
+    
+    .nav-item{
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+    .slide{
+    padding-top:30px;
+    color:#999;
+    background-color:#333;
+    background-image: url("slidbackground.png");
+    height: 300px;
+}    #contact{
+	border-bottom: 2px solid #5842DE;
+    padding-bottom: 50px;
+}
+ #topic {
+  border-bottom: 1px solid #17A7DD;
+  padding-bottom: 50px;
+}
+    
+    #info{
+	margin-top:70px;
+    padding-bottom: 50px;
+}
+    #documentation{
+	border-bottom: 2px solid #55D739;
+    padding-bottom: 50px;
+}
+    #about{
+	border-bottom: 2px solid #FE9D00;
+    padding-bottom: 50px;
+}
+    
+    #home {
+    border-bottom: 2px solid #DD2B17;
+    padding-bottom: 50px;
+} 
+}
+    
+@media screen and (max-width: 1199px) and (orientation:portrait){
+    p.par-text{
+        padding: 75px;
+        font-size: 35px;
+    }
+    h1.title{
+        font-size: 80px;
+        padding-top: 80px;
+    }
+    .slide-btn-1{
+        font-size: 50px;
+    }
+    .dropdown {
+    border-bottom: 2px solid #222;
+}
+     #topic {
+  border-bottom: 2px solid #222;
+  padding-bottom: 25px;
+}
+    #contact{
+        padding-bottom: 25px;
+    }
+    
+    #info{
+    padding-bottom: 25px;
+}
+    #documentation{
+	border-bottom: 2px solid #55D739;
+    padding-bottom: 25px;
+}
+    #about{
+	border-bottom: 2px solid #FE9D00;
+    padding-bottom: 25px;
+}
+    
+    #home {
+    border-bottom: 2px solid #DD2B17;
+    padding-bottom: 25px;
+} 
+    p.topic-drop{
+        padding-bottom: 25px;
+    }
+ 
+    .icon-button i {
+    background: none;
+    color: white;
+    height: 3.6rem;
+    left: 14px;
+    line-height: 6.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 3.6rem;
+    z-index: 10;
+}
+    .icon-button {
+    background-color: white;
+    border-radius: 3.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 5.0rem;
+    height: 7.0rem;
+    line-height: 3.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 7rem;
+}
+    p.slide-text{
+        font-size: 30px;
+        padding: 25px;
+    }
+    h3.slide-title{
+        font-size:100px;
+        padding-top: 150px;
+    }
+    .navbar {
+        height: 130px;
+    }
+    
+    ul.nav-pills{
+        height: 80px;
+    }
+    
+    .slide-nav-mid{
+        
+    }
+    
+    .page-title{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+    .navbar-collapse{
+        border: 2px #222;
+        padding: 2%;
+        background-color: #222;
+        border-radius: 10px;
+    }
+    .animated-menu{
+        padding-bottom:35px;
+        padding-top: 30px;
+    }
+    .bar1, .bar2, .bar3 {
+        border-radius: 15px;
+        width: 50px;
+        height: 8px;
+        background-color: white;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    .nav-item{
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+    }
+    a.slide-nav-text{
+        font-size: 45px; 
+    }
+    #info{
+        padding-top: 350px;   
+    }
+    li.slide-nav-select{
+        height: 80px;
+    }
+    .slide{
+        padding-top: 50px;
+        height: 800px;
+    }
+    #slider{
+        height:550px;
+    }
+    
+    .navbar-right .dropdown-menu {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        right: 0;
+        background: #222;
+        border: none;
+        text-align: center;
+    }
+    
+    li.hiden-nav-text{
+        padding: 5px;
+        font-size: 30px;
+        color: white;
+        }
+    li.nav-item.dropdown.open {
+        border-radius: 1px;
+        margin-bottom: 225px;
+        } 
+    a.nav-item {
+        margin-bottom: 20px;
+        padding-bottom: 50px;
+    }
+    .navbar-social {
+    padding-top: 25px;
+        
+}
+
+
+}
+
+@media (min-width: 768px){
+.navbar-right .dropdown-menu {
+    background: #222;
+    border: none;
+    text-align: center;
+    width: 100%;
+    }}
+    
+
